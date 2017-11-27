@@ -93,7 +93,7 @@
                         пн - пт: с 10:00 до 22:00<br>
                         сб - вс с 10:00 до 19:00
                     </p>
-                    <a class="btn" href="#">Как проехать</a>
+                    <a class="btn js-open-map" href="#">Как проехать</a>
                     <a class="btn" href="#">Обратная связь</a>
                 </div>
                 <div class="index-content-right">
@@ -151,11 +151,14 @@
             <button class="btn" type="submit">Войти</button>
         </form>
     </div>
-    <div class="modal-content-map">
-        <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
-        <div id="yandex-map"></div>
+    <div class="modal-content-map ">
+        <button class="modal-content-close " type="button" title="Закрыть">Закрыть</button>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20520.158374004775!2d36.244550155151316!3d49.99223829974592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a0f054bbe88f%3A0x4d6dc6818b6c0427!2z0J_Qu9C-0YnQsNC00Ywg0JrQvtC90YHRgtC40YLRg9GG0LjQuA!5e0!3m2!1sru!2sua!4v1511786567790" width="766" height="561" frameborder="0" style="border:0" allowfullscreen></iframe>
+
     </div>
     <div class="modal-overlay"></div>
+
+        <script src="js/map.js"></script>
         <script src="js/popup.js"></script>
     </body>
 </html>
